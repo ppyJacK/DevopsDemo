@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&characterEncoding=utf-8&useUnicode=true
+    username: root
+    password: qyy19980310
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+logging:
+  level:
+    root: warn
+    con.qinyy.blog: info
+server:
+  prot: 8081
